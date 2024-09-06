@@ -1,0 +1,211 @@
+ /* Importação da fonte Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+div{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.login-form .forgot-password {
+  align-self: flex-end;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.login-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.social-login {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.social-login button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.google-login {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-login {
+  background-color: #3b5998;
+  color: white;
+}
+
+.login-image {
+  margin-top: 20px;
+}
+
+.login-image img {
+  width: 100%;
+
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    width: 450px;
+    font-family: 'Ralewey'sans-serif;
+  }
+  
+  
+
+  /* email e senha, cores, tamanhos */
+  .flex-column > label {
+    color: #000000;
+    font-size: 17px;
+  }
+  
+  .inputForm {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    outline: none;
+
+
+  }
+  
+  .input {
+    width: 100%;
+    height: 100%;   
+     /*fazer a linha  */
+    border: none; 
+    border-bottom: 1px solid #000;
+    color: #000000;
+  }
+  
+  .input:focus{
+    outline: none;
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: #f1f1f1;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #000000;
+    color: white;
+    font-size: 23px;
+    height: 55px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #0A0909;
+  }
+
+  .google:hover {
+    all: none;
+  }
+
+  .title {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* "não tem cadastro" */
+  .create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  
